@@ -1,0 +1,64 @@
+{
+  "name": "Just a Midnight Theme Configuration",
+  "description": "Customize your theme colors here. Save the file and reload VS Code to see changes.",
+  "colors": {
+    "backgrounds": {
+      "editor": "#000000",
+      "sidebar": "#000000",
+      "activityBar": "#000000",
+      "statusBar": "#000000",
+      "titleBar": "#000000",
+      "terminal": "#000000",
+      "panel": "#000000",
+      "menu": "#000000",
+      "activeTab": "#0a0a0a",
+      "inactiveTab": "#000000"
+    },
+    "borders": {
+      "sidebar": "#222222",
+      "activityBar": "#222222",
+      "statusBar": "#222222",
+      "titleBar": "#222222",
+      "tab": "#000000",
+      "activeTabTop": "#569cd6",
+      "input": "#3c3c3c",
+      "menu": "#454545"
+    },
+    "syntax": {
+      "comment": "#6a9955",
+      "string": "#ce9178",
+      "keyword": "#569cd6",
+      "function": "#dcdcaa",
+      "variable": "#9cdcfe",
+      "class": "#4ec9b0",
+      "number": "#b5cea8",
+      "error": "#f44747"
+    },
+    "ui": {
+      "foreground": "#d4d4d4",
+      "selection": "#264f78",
+      "lineHighlight": "#0a0a0a",
+      "cursor": "#ffffff",
+      "button": "#0e639c",
+      "badge": "#007acc",
+      "listActiveSelection": "#094771",
+      "listHover": "#2a2d2e"
+    },
+    "git": {
+      "added": "#81b88b",
+      "modified": "#e2c08d",
+      "deleted": "#c74e39",
+      "untracked": "#73c991",
+      "ignored": "#8c8c8c",
+      "conflicting": "#e4676b"
+    }
+  },
+  "instructions": [
+    "1. Edit the hex color values above",
+    "2. Save this file (Cmd+S / Ctrl+S)",
+    "3. Run the 'npm run build-theme' command to generate the theme",
+    "4. Reload VS Code to see your changes",
+    "",
+    "Tip: Use a color picker extension to easily select colors!"
+  ]
+}

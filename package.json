@@ -1,0 +1,48 @@
+{
+  "name": "just-a-midnight-theme",
+  "displayName": "Just a Midnight Theme",
+  "description": "A pitch black VS Code theme for late night coding",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "black",
+    "midnight",
+    "pitch black"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Just a Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/just-a-midnight-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxmarquardt/just-a-midnight-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/maxmarquardt/just-a-midnight-theme/issues"
+  },
+  "publisher": "maxs-lab-of-things",
+  "homepage": "https://mlot.ai",
+  "author": {
+    "name": "Max Marquardt",
+    "url": "https://mlot.ai"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}

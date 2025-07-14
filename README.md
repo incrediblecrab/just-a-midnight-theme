@@ -57,10 +57,6 @@ To customize the theme, add overrides to your VS Code settings:
 }
 ```
 
-## Feedback & Issues
-
-Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/maxmarquardt/just-a-midnight-theme/issues).
-
 ## Author
 
 Max Marquardt | [mlot.ai](https://mlot.ai)

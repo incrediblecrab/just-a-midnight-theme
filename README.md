@@ -1,6 +1,11 @@
 # Just a Midnight Theme
 
+![Version](https://img.shields.io/visual-studio-marketplace/v/maxs-lab-of-things.just-a-midnight-theme)
+![MLoT](https://img.shields.io/badge/MLoT-ai-blue)
+
 A true pitch black VS Code theme for late night coding sessions. Zero borders, maximum focus.
+
+![Demo](https://raw.githubusercontent.com/incrediblecrab/Packages-and-Extensions-Media/main/just-a-midnight-theme.gif)
 
 ## Features
 
@@ -57,9 +62,16 @@ To customize the theme, add overrides to your VS Code settings:
 }
 ```
 
-## Author
+## Resources
 
-Max Marquardt | [mlot.ai](https://mlot.ai)
+- 📺 [Watch Demo Video](https://youtu.be/S0kfET0g1eU)
+- 🌐 [Visit MLoT Page](https://mlot.ai/just-a-midnight-theme/)
+- 🔒 [Privacy Policy](https://mlot.ai/privacy)
+
+## Publisher
+
+**Max's Lab of Things**
+Visit [mlot.ai](https://mlot.ai/)
 
 ## License
 

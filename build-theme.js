@@ -142,8 +142,8 @@ theme.colors = {
   "tab.unfocusedActiveForeground": "#ffffff80",
   "tab.unfocusedInactiveForeground": "#ffffff40",
   "editorGroupHeader.tabsBackground": colors.backgrounds.inactiveTab,
-  "editorGroupHeader.tabsBorder": colors.backgrounds.inactiveTab,
-  "editorGroup.border": colors.backgrounds.editor,
+  "editorGroupHeader.tabsBorder": colors.borders.tab,
+  "editorGroup.border": colors.borders.tab,
   
   // Rest of the colors...
   "scrollbar.shadow": "#000000",

@@ -19,8 +19,8 @@
       "activityBar": "#222222",
       "statusBar": "#222222",
       "titleBar": "#222222",
-      "tab": "#000000",
-      "activeTabTop": "#569cd6",
+      "tab": "#222222",
+      "activeTabTop": "#FFFFFF",
       "input": "#3c3c3c",
       "menu": "#454545"
     },

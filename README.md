@@ -5,7 +5,7 @@
 
 A true pitch black VS Code theme for late night coding sessions. Zero borders, maximum focus.
 
-![Demo](https://raw.githubusercontent.com/incrediblecrab/Packages-and-Extensions-Media/main/gifs/just-a-midnight-theme.gif)
+![Demo](https://raw.githubusercontent.com/incrediblecrab/mlot-developer-media/main/gifs/just-a-midnight-theme.gif)
 
 ## Features
 

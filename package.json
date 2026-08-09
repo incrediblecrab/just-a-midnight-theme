@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxmarquardt/just-a-midnight-theme"
+    "url": "git+https://github.com/incrediblecrab/just-a-midnight-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/maxmarquardt/just-a-midnight-theme/issues"
+    "url": "https://github.com/incrediblecrab/just-a-midnight-theme/issues"
   },
   "publisher": "maxs-lab-of-things",
   "homepage": "https://mlot.ai",

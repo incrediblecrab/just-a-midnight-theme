@@ -75,4 +75,4 @@ Visit [mlot.ai](https://mlot.ai/)
 
 ## License
 
-MIT - see [LICENSE](LICENSE) file for details
+MIT

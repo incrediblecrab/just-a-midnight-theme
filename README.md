@@ -1,78 +1,62 @@
-# Just a Midnight Theme
+# just-a-midnight-theme
 
-![Version](https://img.shields.io/visual-studio-marketplace/v/maxs-lab-of-things.just-a-midnight-theme)
-![MLoT](https://img.shields.io/badge/MLoT-ai-blue)
+![Version](https://img.shields.io/visual-studio-marketplace/v/maxs-lab-of-things.just-a-midnight-theme) ![MLoT](https://img.shields.io/badge/MLoT-ai-blue)
 
-A true pitch black VS Code theme for late night coding sessions. Zero borders, maximum focus.
+Just a Midnight Theme is a VS Code color theme with a black editor and workbench background and Dark+ syntax colors. It is published on the VS Code Marketplace as [`maxs-lab-of-things.just-a-midnight-theme`](https://marketplace.visualstudio.com/items?itemName=maxs-lab-of-things.just-a-midnight-theme); the Marketplace version is 1.5.1, matching this repository.
 
 ![Demo](https://raw.githubusercontent.com/incrediblecrab/mlot-developer-media/main/gifs/just-a-midnight-theme.gif)
 
-## Features
+**Objective:** provide a low-distraction dark VS Code theme for users who want a black workbench with familiar Dark+ token colors.
 
-- **Pure Black Background**: True #000000 backgrounds throughout the entire UI
-- **Subtle Borders**: Minimal #222222 borders for visual separation without distraction
-- **High Contrast**: Carefully selected colors for excellent readability in dark environments
-- **Dark+ Inspired**: Familiar syntax highlighting based on VS Code's popular Dark+ theme
-- **Customizable**: Built-in configuration system for personalized color adjustments
+**Inputs:** VS Code 1.74.0 or newer. The theme contribution points VS Code to `themes/just-a-midnight-color-theme.json`.
 
-## Installation
+**Files:**
 
-### From VS Code Marketplace
-1. Open VS Code
-2. Go to Extensions (Cmd+Shift+X / Ctrl+Shift+X)
-3. Search for "Just a Midnight"
-4. Click Install
+- [`themes/`](themes/): the Just a Midnight color theme and included VS Code default theme files
+- [`build-theme.js`](build-theme.js): theme build helper retained in the repository
+- [`theme-config.dev.json`](theme-config.dev.json): development theme configuration
+- [`package.json`](package.json): extension manifest, Marketplace metadata, theme contribution and packaging scripts
+- [`CHANGELOG.md`](CHANGELOG.md): release notes
 
-### Manual Installation
-1. Download the `.vsix` file from releases
-2. Run: `code --install-extension just-a-midnight-*.vsix`
+**Try it:** install with `ext install maxs-lab-of-things.just-a-midnight-theme`, then run **Preferences: Color Theme** and choose **Just a Midnight**.
 
-## Customization
+## Theme contribution
 
-To customize the theme, add overrides to your VS Code settings:
+| Label | UI theme | Path |
+| --- | --- | --- |
+| `Just a Midnight` | `vs-dark` | `./themes/just-a-midnight-color-theme.json` |
+
+The theme file includes `./dark_plus.json` for syntax highlighting and overrides workbench colors for the editor, sidebar, activity bar, status bar, title bar, tab backgrounds, borders, selections, find matches, scrollbars and rulers.
+
+## Color notes
+
+The editor and major workbench backgrounds are set to `#000`. The foreground uses `#d4d4d4`, matching the Dark+ syntax palette more closely than pure white. Subtle separator colors use `#222` where the theme keeps visible borders.
+
+VS Code users can override individual colors in their own settings:
 
 ```json
-"workbench.colorCustomizations": {
-  "[Just a Midnight]": {
-    "tab.activeBorderTop": "#00ff00",
-    "sideBar.border": "#333333"
+{
+  "workbench.colorCustomizations": {
+    "[Just a Midnight]": {
+      "tab.activeBorderTop": "#00ff00",
+      "sideBar.border": "#333333"
+    }
   }
 }
 ```
 
-## Color Palette
+## Development
 
-- **Background**: #000000 (Pure Black)
-- **Foreground**: #d4d4d4 (Light Gray)
-- **Comments**: #6a9955 (Green)
-- **Strings**: #ce9178 (Orange)
-- **Keywords**: #569cd6 (Blue)
-- **Functions**: #dcdcaa (Yellow)
-- **Variables**: #9cdcfe (Light Blue)
-- **Classes**: #4ec9b0 (Teal)
+The repository includes `npm run package` for `vsce package` and `npm run publish` for `vsce publish`. Do not run the publish script unless you intend to publish a new Marketplace build.
 
-## Recommended Settings
+## Links
 
-```json
-{
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.5,
-  "editor.letterSpacing": 0.5
-}
-```
-
-## Resources
-
-- 📺 [Watch Demo Video](https://youtu.be/S0kfET0g1eU)
-- 🌐 [Visit MLoT Page](https://mlot.ai/just-a-midnight-theme/)
-- 🔒 [Privacy Policy](https://mlot.ai/privacy)
-
-## Publisher
-
-**Max's Lab of Things**
-Visit [mlot.ai](https://mlot.ai/)
+- [Marketplace listing](https://marketplace.visualstudio.com/items?itemName=maxs-lab-of-things.just-a-midnight-theme)
+- [Demo video](https://youtu.be/S0kfET0g1eU)
+- [MLoT product page](https://mlot.ai/just-a-midnight-theme/)
+- [Privacy policy](https://mlot.ai/privacy)
+- Publisher: [Max's Lab of Things](https://mlot.ai/)
 
 ## License
 
-MIT
+MIT. See [`LICENSE`](LICENSE).
